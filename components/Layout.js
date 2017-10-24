@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import Header from './Header'
+
 const Content = styled.div`
   display: flex;
   align-items: center;
@@ -8,6 +10,7 @@ const Content = styled.div`
 
 const Layout = ({ className, children }) =>
   <div className={className}>
+    <Header />
     <Content>
       {children}
     </Content>

@@ -13,3 +13,9 @@ const Profile = styled.div`
     width: 50px;
   }
 `;
+
+export default ({ profile }) =>
+<Profile>
+  <h1>{profile.name || profile.login}</h1>
+  <img src={profile.avatar_url} />
+</Profile>

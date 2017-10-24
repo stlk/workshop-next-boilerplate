@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index Index shows gists 1`] = `
+<div
+  className="Layout-e2ivzo-1 iiMqQr"
+>
+  <div
+    className="Layout__Content-e2ivzo-0 grYFab"
+  >
+    <p>
+      This is the index page
+    </p>
+  </div>
+</div>
+`;

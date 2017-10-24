@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "next start -p 8000",
+    "start": "NODE_ENV=production node server.js",
     "test": "node test.js",
     "lint:staged": "lint-staged"
   },
@@ -24,6 +24,7 @@
     "express": "^4.16.2",
     "graphql-request": "^1.4.0",
     "isomorphic-unfetch": "^1.0.0",
+    "moment": "^2.19.1",
     "next": "^4.0.1",
     "nprogress": "^0.2.0",
     "react": "^16.0.0",
